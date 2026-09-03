@@ -1,0 +1,14 @@
+project:
+  name: example_buffer_project
+
+paths:
+  input_features: C:/GIS/Data/example.gdb/input_features
+  output_features: C:/GIS/Data/example.gdb/input_features_buffered
+
+buffer:
+  distance: 500
+  units: Meters
+  dissolve_option: NONE
+
+logging:
+  level: INFO
