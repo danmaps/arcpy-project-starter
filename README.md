@@ -21,6 +21,8 @@ This starter is designed for real ArcGIS Pro work on Windows. It gives you an op
 ```text
 arcpy-project-starter/
 ├── AGENTS.md
+├── LICENSE.txt
+├── NOTICE.txt
 ├── README.md
 ├── pyproject.toml
 ├── .gitignore
@@ -92,4 +94,12 @@ Rename the `arcpy_project` package, replace the example workflow, and update the
 
 ## License
 
-For purchased copies, use is permitted for the buyer's personal and professional projects. Redistribution or resale of the starter kit itself is not permitted. Replace this section with your final commercial license before distribution.
+ArcPy Project Starter is **proprietary software, not open-source software**.
+
+An individual purchase licenses one person to use and modify the Starter Kit for unlimited personal, professional, employer, and client projects. Software and project-specific deliverables you build with the Starter Kit may be used and distributed normally.
+
+The reusable Starter Kit itself may not be resold, published, shared as a template, placed in a public repository, or distributed to other people for their independent reuse. Multiple developers who need direct access to the reusable Starter Kit require separate individual licenses or a team/organization license.
+
+See [`LICENSE.txt`](LICENSE.txt) for the complete terms and [`NOTICE.txt`](NOTICE.txt) for third-party and trademark notices.
+
+Copyright (c) 2026 Danny McVey. All rights reserved.
