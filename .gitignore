@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and secrets
+config/local.yaml
+.env
+.env.*
+!.env.example
+
+# ArcGIS Pro / GIS outputs
+*.aprx.lock
+*.lock
+*.sr.lock
+*.gdb/
+*.sde
+*.sd
+*.sdraft
+*.lyrx
+*.ppkx
+*.mpkx
+scratch/
+output/
+outputs/
+temp/
+tmp/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
