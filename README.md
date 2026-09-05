@@ -12,7 +12,10 @@ This starter is designed for real ArcGIS Pro work on Windows. It gives you an op
 - A small reusable ArcPy workflow
 - A command-line runner pattern
 - Tests that separate pure Python logic from ArcPy-dependent code
-- `AGENTS.md` guidance for Copilot, Codex, Claude Code, and similar tools
+- Canonical `AGENTS.md` guidance for AI coding agents
+- `CLAUDE.md` and GitHub Copilot compatibility instructions that point agents to the same rules
+- Three ArcPy-specific before/after case studies that show how a working script can evolve safely
+- A customization playbook for single scripts, batch workflows, and ArcGIS Pro script tools/Python toolboxes
 - ArcGIS Pro-aware `.gitignore`
 - A structure you can copy for actual production GIS automation
 
@@ -20,7 +23,10 @@ This starter is designed for real ArcGIS Pro work on Windows. It gives you an op
 
 ```text
 arcpy-project-starter/
+├── .github/
+│   └── copilot-instructions.md
 ├── AGENTS.md
+├── CLAUDE.md
 ├── LICENSE.txt
 ├── NOTICE.txt
 ├── README.md
@@ -29,6 +35,8 @@ arcpy-project-starter/
 ├── config/
 │   └── example.yaml
 ├── docs/
+│   ├── case-studies.md
+│   ├── customizing.md
 │   └── getting-started.md
 ├── scripts/
 │   └── run_workflow.py
@@ -68,6 +76,18 @@ Copy-Item config\example.yaml config\local.yaml
 python scripts\run_workflow.py --config config\local.yaml
 ```
 
+## If you already have an ArcPy script
+
+You do not need to start over.
+
+Read [`docs/customizing.md`](docs/customizing.md) for a step-by-step migration path, then use the closest example in [`docs/case-studies.md`](docs/case-studies.md):
+
+1. a one-off script that grew into a shared workflow,
+2. a batch script with hidden schema assumptions,
+3. a maintenance script that edits important data in place.
+
+Each case study includes a before/after example, the structural lesson, and a prompt you can give an AI coding assistant.
+
 ## Why this structure
 
 Most GIS automation starts as a useful script and then accumulates hard-coded paths, duplicated environment settings, print statements, and hidden assumptions. This template separates the parts that change from the parts that should stay stable.
@@ -86,11 +106,17 @@ Tests that require `arcpy` should be run from the ArcGIS Pro Python environment.
 
 ## AI-assisted development
 
-Read `AGENTS.md` before using an AI coding assistant in this repository. It explains ArcGIS Pro constraints, project conventions, path handling, testing boundaries, and how generated code should interact with ArcPy.
+`AGENTS.md` is the canonical repository guidance. It explains ArcGIS Pro constraints, project conventions, path handling, testing boundaries, and how generated code should interact with ArcPy.
+
+`CLAUDE.md` and `.github/copilot-instructions.md` are intentionally thin compatibility files that direct supported coding agents back to the same source of truth.
+
+For refactoring work, `docs/case-studies.md` gives the agent concrete examples of the kind of project evolution this starter is designed to encourage.
 
 ## Using this as your own project
 
-Rename the `arcpy_project` package, replace the example workflow, and update the config keys. Keep the surrounding structure unless you have a reason to change it.
+Rename the `arcpy_project` package, replace the example workflow, and update the config keys. Keep the surrounding structure only where it helps your workflow.
+
+For three common adaptation paths and ready-to-use agent prompts, see [`docs/customizing.md`](docs/customizing.md).
 
 ## License
 
