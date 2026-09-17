@@ -1,0 +1,73 @@
+name: Publish latest product package
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-latest-product-package
+  cancel-in-progress: true
+
+jobs:
+  package-and-release:
+    name: Build and publish latest ZIP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Build customer ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          package_root="$RUNNER_TEMP/arcpy-project-starter"
+          asset="dist/arcpy-project-starter.zip"
+
+          rm -rf "$package_root"
+          mkdir -p "$package_root" dist
+          rsync -a \
+            --exclude='.git/' \
+            --exclude='.github/workflows/' \
+            --exclude='dist/' \
+            --exclude='stage/' \
+            --exclude='__pycache__/' \
+            --exclude='.pytest_cache/' \
+            --exclude='*.py[cod]' \
+            ./ "$package_root/"
+
+          (cd "$RUNNER_TEMP" && zip -qr "$GITHUB_WORKSPACE/$asset" arcpy-project-starter)
+          python3 -m zipfile -t "$asset"
+          sha256sum "$asset" > "$asset.sha256"
+
+      - name: Retain build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: arcpy-project-starter
+          path: |
+            dist/arcpy-project-starter.zip
+            dist/arcpy-project-starter.zip.sha256
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Create or update latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ASSET: dist/arcpy-project-starter.zip
+          CHECKSUM: dist/arcpy-project-starter.zip.sha256
+        shell: bash
+        run: |
+          set -euo pipefail
+          notes="Automatically built from commit $GITHUB_SHA on $GITHUB_REF_NAME."
+
+          if gh release view latest --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload latest "$ASSET" "$CHECKSUM" --repo "$GITHUB_REPOSITORY" --clobber
+            gh release edit latest --repo "$GITHUB_REPOSITORY" --title "Latest ArcPy Project Starter package" --notes "$notes"
+          else
+            gh release create latest "$ASSET" "$CHECKSUM" --repo "$GITHUB_REPOSITORY" --title "Latest ArcPy Project Starter package" --notes "$notes"
+          fi
