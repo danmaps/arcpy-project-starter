@@ -4,6 +4,8 @@ A practical project template for GIS analysts and developers who want to turn on
 
 This starter is designed for real ArcGIS Pro work on Windows. It gives you an opinionated structure for configuration, logging, testing, reusable workflows, and AI-assisted development without pretending ArcPy behaves like a normal cross-platform Python library.
 
+**Free download:** [Get the ZIP](https://dannymcvey.com/downloads/arcpy-project-starter.zip). No checkout or sign-up.
+
 ## What this gives you
 
 - A clean `src/` package layout
@@ -122,9 +124,9 @@ For three common adaptation paths and ready-to-use agent prompts, see [`docs/cus
 
 ArcPy Project Starter is **proprietary software, not open-source software**.
 
-An individual purchase licenses one person to use and modify the Starter Kit for unlimited personal, professional, employer, and client projects. Software and project-specific deliverables you build with the Starter Kit may be used and distributed normally.
+A free individual license allows one person to use and modify the Starter Kit for unlimited personal, professional, employer, and client projects. Software and project-specific deliverables you build with the Starter Kit may be used and distributed normally.
 
-The reusable Starter Kit itself may not be resold, published, shared as a template, placed in a public repository, or distributed to other people for their independent reuse. Multiple developers who need direct access to the reusable Starter Kit require separate individual licenses or a team/organization license.
+The reusable Starter Kit itself may not be resold, published, shared as a template, placed in a public repository, or distributed to other people for their independent reuse. Each developer can download their own free copy from the website under the individual license.
 
 See [`LICENSE.txt`](LICENSE.txt) for the complete terms and [`NOTICE.txt`](NOTICE.txt) for third-party and trademark notices.
 

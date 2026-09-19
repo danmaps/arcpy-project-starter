@@ -1,30 +1,30 @@
 ARCPY PROJECT STARTER - INDIVIDUAL LICENSE
-Version 1.0
+Version 1.1
 Copyright (c) 2026 Danny McVey. All rights reserved.
 
 This is proprietary software. It is not open-source software.
 
-By purchasing, downloading, copying, or using ArcPy Project Starter (the "Starter Kit"), you agree to the following terms.
+By downloading, copying, or using ArcPy Project Starter (the "Starter Kit"), you agree to the following terms.
 
 1. LICENSE GRANT
 
-Subject to these terms, the purchaser is granted a non-exclusive, non-transferable license to use and modify the Starter Kit for the purchaser's own personal and professional work.
+No purchase or payment is required. Subject to these terms, the user is granted a non-exclusive, non-transferable license to use and modify the Starter Kit for the user's own personal and professional work.
 
-The purchaser may use the Starter Kit for an unlimited number of projects and may use it to create software, scripts, tools, automations, analyses, and other deliverables for the purchaser, the purchaser's employer, or the purchaser's clients.
+The user may use the Starter Kit for an unlimited number of projects and may use it to create software, scripts, tools, automations, analyses, and other deliverables for the user, the user's employer, or the user's clients.
 
-This license is granted to one individual purchaser. Purchase does not transfer ownership of the Starter Kit or its underlying reusable template materials.
+This license is granted to one individual user at no cost. Downloading does not transfer ownership of the Starter Kit or its underlying reusable template materials.
 
 2. PROJECT OUTPUT
 
-Software and other work created by the purchaser using the Starter Kit may be used, modified, deployed, licensed, and distributed as part of the purchaser's projects, subject to any applicable third-party rights.
+Software and other work created by the user using the Starter Kit may be used, modified, deployed, licensed, and distributed as part of the user's projects, subject to any applicable third-party rights.
 
-The purchaser and/or the purchaser's employer or client may own the purchaser's project-specific code and deliverables according to their own agreements. This license does not claim ownership of project-specific business logic, data, workflows, configurations, or other original material created by the purchaser.
+The user and/or the user's employer or client may own the user's project-specific code and deliverables according to their own agreements. This license does not claim ownership of project-specific business logic, data, workflows, configurations, or other original material created by the user.
 
 The restrictions below apply to redistribution of the Starter Kit itself and substantially equivalent reusable template material, not to ordinary software created using the Starter Kit.
 
 3. REDISTRIBUTION RESTRICTIONS
 
-The purchaser may not, without prior written permission from the copyright holder:
+The user may not, without prior written permission from the copyright holder:
 
 (a) sell, sublicense, rent, publish, give away, or otherwise redistribute the Starter Kit, in whole or in substantial part, whether modified or unmodified;
 
@@ -40,17 +40,17 @@ Incidental inclusion of portions of the Starter Kit in a larger project-specific
 
 4. EMPLOYER AND CLIENT USE
 
-The purchaser may use the Starter Kit while performing work for an employer or client and may deliver project-specific software created with it.
+The user may use the Starter Kit while performing work for an employer or client and may deliver project-specific software created with it.
 
-This individual license does not authorize the purchaser to distribute the Starter Kit itself to coworkers, contractors, clients, students, or other developers for their independent reuse.
+This individual license does not authorize the user to distribute the Starter Kit itself to coworkers, contractors, clients, students, or other developers for their independent reuse.
 
-If multiple people need direct access to or independent use of the reusable Starter Kit, a separate license is required for each individual unless a team or organization license has been obtained from the copyright holder.
+Each individual may obtain a free copy and individual license by downloading the Starter Kit from the official website.
 
-Normal code review, pair programming, automated build systems, backups, and deployment processes do not by themselves constitute prohibited redistribution when access is reasonably limited to what is necessary for the purchaser's project work.
+Normal code review, pair programming, automated build systems, backups, and deployment processes do not by themselves constitute prohibited redistribution when access is reasonably limited to what is necessary for the user's project work.
 
 5. MODIFICATIONS
 
-The purchaser may modify the Starter Kit for permitted uses. Modifying the Starter Kit does not remove the redistribution restrictions in this license when the modified material remains substantially a reusable version of the Starter Kit.
+The user may modify the Starter Kit for permitted uses. Modifying the Starter Kit does not remove the redistribution restrictions in this license when the modified material remains substantially a reusable version of the Starter Kit.
 
 6. THIRD-PARTY SOFTWARE
 
@@ -60,23 +60,23 @@ ArcGIS, ArcGIS Pro, and ArcPy are products or technologies of Esri. The Starter 
 
 7. SUPPORT AND UPDATES
 
-Purchase does not include guaranteed support, maintenance, consulting services, compatibility updates, future versions, or feature development unless separately stated at the time of purchase.
+The free license does not include guaranteed support, maintenance, consulting services, compatibility updates, future versions, or feature development unless separately agreed.
 
 8. NO WARRANTY
 
 THE STARTER KIT IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, OR RELIABILITY.
 
-GIS and geoprocessing results should be independently validated for the purchaser's intended use. The purchaser is responsible for reviewing generated code, configuration, data handling, outputs, and suitability for production use.
+GIS and geoprocessing results should be independently validated for the user's intended use. The user is responsible for reviewing generated code, configuration, data handling, outputs, and suitability for production use.
 
 9. LIMITATION OF LIABILITY
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE, BUSINESS, OR USE, ARISING FROM OR RELATED TO THE STARTER KIT.
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER'S TOTAL LIABILITY ARISING FROM OR RELATED TO THE STARTER KIT WILL NOT EXCEED THE AMOUNT PAID BY THE PURCHASER FOR THE STARTER KIT.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER'S TOTAL LIABILITY ARISING FROM OR RELATED TO THE STARTER KIT WILL NOT EXCEED THE AMOUNT PAID BY THE USER FOR THE STARTER KIT.
 
 10. TERMINATION
 
-This license terminates automatically if the purchaser materially violates these terms and does not cure the violation after receiving reasonable notice when a cure is possible. Upon termination, the purchaser must stop distributing or using copies of the Starter Kit except as otherwise required by law.
+This license terminates automatically if the user materially violates these terms and does not cure the violation after receiving reasonable notice when a cure is possible. Upon termination, the user must stop distributing or using copies of the Starter Kit except as otherwise required by law.
 
 11. RESERVATION OF RIGHTS
 
@@ -84,4 +84,4 @@ All rights not expressly granted by this license are reserved by the copyright h
 
 For team, organization, educational, redistribution, or other licensing arrangements, contact the copyright holder.
 
-This license is intended as a concise commercial license for the Starter Kit. It does not override rights or obligations that cannot lawfully be waived or limited under applicable law.
+This license is intended as a concise individual license for the Starter Kit. It does not override rights or obligations that cannot lawfully be waived or limited under applicable law.

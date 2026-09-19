@@ -3,17 +3,17 @@ Copyright (c) 2026 Danny McVey. All rights reserved.
 
 PROPRIETARY PRODUCT
 
-ArcPy Project Starter is proprietary software distributed under the terms in LICENSE.txt. Purchase grants a license to use the product; it does not transfer copyright ownership or grant open-source redistribution rights.
+ArcPy Project Starter is proprietary software distributed under the terms in LICENSE.txt. A free download grants an individual license to use the product; it does not transfer copyright ownership or grant open-source redistribution rights.
 
 THIRD-PARTY SOFTWARE
 
-This project is designed to work with software and libraries that are not owned by Danny McVey and are governed by their own terms and licenses. These may include, depending on how the purchaser configures and uses the project:
+This project is designed to work with software and libraries that are not owned by Danny McVey and are governed by their own terms and licenses. These may include, depending on how the user configures and uses the project:
 
 - ArcGIS Pro and ArcPy, provided by Esri
 - Python
 - PyYAML
 - pytest
-- other packages added by the purchaser
+- other packages added by the user
 
 Third-party software is not relicensed by the ArcPy Project Starter license. Users are responsible for complying with applicable third-party licenses and product terms.
 
