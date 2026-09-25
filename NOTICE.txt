@@ -1,21 +1,21 @@
 ARCPY PROJECT STARTER
-Copyright (c) 2026 Danny McVey. All rights reserved.
+Copyright (c) 2026 Danny McVey.
 
-PROPRIETARY PRODUCT
+OPEN-SOURCE PROJECT
 
-ArcPy Project Starter is proprietary software distributed under the terms in LICENSE.txt. A free download grants an individual license to use the product; it does not transfer copyright ownership or grant open-source redistribution rights.
+ArcPy Project Starter is open-source software distributed under the MIT License in LICENSE.txt. Copyright remains with Danny McVey; the MIT License grants the permissions described there.
 
 THIRD-PARTY SOFTWARE
 
-This project is designed to work with software and libraries that are not owned by Danny McVey and are governed by their own terms and licenses. These may include, depending on how the user configures and uses the project:
+This project is designed to work with software and libraries that are not owned by Danny McVey and are governed by their own terms and licenses. These may include, depending on how the purchaser configures and uses the project:
 
 - ArcGIS Pro and ArcPy, provided by Esri
 - Python
 - PyYAML
 - pytest
-- other packages added by the user
+- other packages added by the purchaser
 
-Third-party software is not relicensed by the ArcPy Project Starter license. Users are responsible for complying with applicable third-party licenses and product terms.
+Third-party software is not relicensed by the ArcPy Project Starter MIT License. Users are responsible for complying with applicable third-party licenses and product terms.
 
 ArcGIS, ArcGIS Pro, ArcPy, and Esri are trademarks, registered trademarks, products, or technologies of Esri in the United States and/or other jurisdictions. ArcPy Project Starter is an independent product and is not affiliated with, endorsed by, or sponsored by Esri.
 
@@ -23,4 +23,4 @@ AI-ASSISTED DEVELOPMENT
 
 The Starter Kit includes guidance intended for use with AI coding assistants. Output produced by AI systems should be reviewed and tested by the user. No AI provider is affiliated with or responsible for this product merely because its tools can be used with the Starter Kit.
 
-For licensing questions, team use, or organization-wide use, contact the copyright holder.
+For licensing questions or trademark questions, contact the copyright holder.
